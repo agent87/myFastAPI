@@ -23,3 +23,6 @@ def names(first_name: bool = False, last_name: bool = False, full_name: bool = F
         full_names = "Hello my name Arnaud Kayonga"
         
     return full_names
+
+if __name__ == "__main__":
+    storage.run()
